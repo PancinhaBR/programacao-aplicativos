@@ -1,0 +1,256 @@
+MIME-Version: 1.0
+Date: Tue, 29 Jul 2025 20:39:51 -0300
+Message-ID: <CANa1L-Zq-Sgh5FRWF18KTGQ7OiNVfx5LoaB_BhUDQZR_DOazfQ@mail.gmail.com>
+Subject: 
+From: Eduardo Rosa <eduardopaularosa@gmail.com>
+To: Eduardo Rosa <eduardopaularosa@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000b09e5f063b19ecda"
+
+--000000000000b09e5f063b19ecda
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+aula4.js
+
+let KM =3D Number(prompt("informe o a distancia da viagem em KM: "));
+
+let gasolina =3D Number(prompt("informe o pre=C3=A7o da gasolina: "));
+
+let consumo =3D Number(prompt("informe o consumo medio do carro por KM/L: "=
+));
+
+let litros =3D KM / consumo;
+
+let preco =3D litros * gasolina;
+
+console.log("Litros de gasolina gasto:",litros,"L ","\nCusto da Viagem:
+R$",preco);
+
+///////////////////////////////////////////////////////////////////////////=
+/////////////////////////////////////////////////////////////////////
+
+aula5.js
+
+let Valor =3D Number(prompt("Informe o Valor da conta: "));
+
+let pessoas =3D Number(prompt("Quantidade de pessoas que vai pagar: "));
+
+let preco =3D Valor / pessoas;
+
+console.log("cada um vai pagar: R$ ",preco);
+
+///////////////////////////////////////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+/
+
+aula06.js
+let numero1 =3D Number(prompt("digite um n=C3=BAmero: "));
+
+if (numero1 % 3 =3D=3D=3D 0){
+console.log("esse n=C3=BAmero =C3=A9 multiplo de 3 ");
+}
+
+else {
+    console.log("esse n=C3=BAmero n=C3=A3o =C3=A9 multiplo de 3 ");
+}
+
+///////////////////////////////////////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+/
+
+aula07.js
+
+let nota1 =3D Number(prompt("informe a primeira nota do aluno: "));
+
+let nota2 =3D Number(prompt("informe a segunda nota do aluno: "));
+
+let nota3 =3D Number(prompt("informe a terceira nota do aluno: "));
+
+let media =3D (nota1 + nota2 + nota3) /3;
+console.log("a m=C3=A9dia =C3=A9: ",media);
+
+if (media >=3D 7){
+    console.log("aprovado");
+}
+else{
+    console.log("reprovado");
+}
+
+///////////////////////////////////////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////
+
+aula08,js
+
+let numero1 =3D Number(prompt("digite um n=C3=BAmero: "));
+
+if (numero1 %2 =3D=3D=3D 0){
+    console.log("esse n=C3=BAmero =C3=A9 par ");
+}
+else {
+    console.log("esse n=C3=BAmero =C3=A9 =C3=ADmpar ");
+}
+
+///////////////////////////////////////////////////////////////////////////=
+/////////////////////////////////////////////////////////////////////////
+
+aula09.js
+
+let idade =3D Number(prompt("informe a sua idade: "));
+
+if (idade <=3D 12){
+    console.log("voc=C3=AA =C3=A9 Crian=C3=A7a ");
+}
+else if (idade >=3D 13 && idade <=3D 17){
+    console.log("voc=C3=AA =C3=A9 adolescente ");
+}
+else if (idade >=3D 18 && idade <=3D 64){
+    console.log("voc=C3=AA =C3=A9 adulto ");
+}
+else{
+    console.log("voc=C3=AA =C3=A9 idoso ");
+}
+
+///////////////////////////////////////////////////////////////////////////=
+////////////////////////////////////////////////////////////////////////
+
+aula10.js
+
+let sexo =3D Number(prompt("informe seu sexo\n1 para homem e 2 para mulher:
+"));
+
+let idade =3D Number(prompt("informe sua idade: "));
+
+if (sexo =3D=3D=3D 2){
+    console.log("n=C3=A3o =C3=A9 obrigado a servir");
+}
+if (sexo =3D=3D=3D 1 && idade <=3D 17){
+    console.log("n=C3=A3o pode servir ");
+}
+if (sexo =3D=3D=3D 1 && idade >=3D 18){
+     console.log("=C3=A9 obrigado a servir ");
+}
+///////////////////////////////////////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+/
+
+aula11.js
+
+let n1 =3D Number(prompt("Informe o primeiro n=C3=BAmero: "));
+
+let n2 =3D Number(prompt("Informe o segundo n=C3=BAmero: "));
+
+let n3 =3D Number(prompt("Informe o terceiro n=C3=BAmero: "));
+
+let n4 =3D Number(prompt("Informe o quarto n=C3=BAmero: "));
+
+let n5 =3D Number(prompt("Informe o quinto n=C3=BAmero: "));
+
+let maior =3D n1;
+
+let menor =3D n1;
+
+if (n2 > maior) maior =3D n2;
+
+if (n3 > maior) maior =3D n3;
+
+if (n4 > maior) maior =3D n4;
+
+if (n5 > maior) maior =3D n5;
+
+if (n2 < menor) menor =3D n2;
+
+if (n3 < menor) menor =3D n3;
+
+if (n4 < menor) menor =3D n4;
+
+if (n5 < menor) menor =3D n5;
+
+console.log("Maior n=C3=BAmero informado:", maior);
+
+console.log("Menor n=C3=BAmero informado:", menor);
+
+///////////////////////////////////////////////////////////////////////////=
+//////////////////////////////////////////////////////////////////////////
+
+--000000000000b09e5f063b19ecda
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">aula4.js<div><br><div>let KM =3D Number(prompt(&quot;infor=
+me o a distancia da viagem em KM: &quot;));<br><br>let gasolina =3D Number(=
+prompt(&quot;informe o pre=C3=A7o da gasolina: &quot;));<br><br>let consumo=
+ =3D Number(prompt(&quot;informe o consumo medio do carro por KM/L: &quot;)=
+);<br><br>let litros =3D KM / consumo;<br><br>let preco =3D litros * gasoli=
+na;<br><br>console.log(&quot;Litros de gasolina gasto:&quot;,litros,&quot;L=
+ &quot;,&quot;\nCusto da Viagem: R$&quot;,preco);</div><div><br></div><div>=
+///////////////////////////////////////////////////////////////////////////=
+/////////////////////////////////////////////////////////////////////</div>=
+<div><br></div><div>aula5.js</div><div><br></div><div>let Valor =3D Number(=
+prompt(&quot;Informe o Valor da conta: &quot;));<br><br>let pessoas =3D Num=
+ber(prompt(&quot;Quantidade de pessoas que vai pagar: &quot;));<br><br>let =
+preco =3D Valor / pessoas;<br><br>console.log(&quot;cada um vai pagar: R$ &=
+quot;,preco);<br></div><div><br></div><div>////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+////////////////////////////////////////////</div><div><br></div><div>aula0=
+6.js</div><div>let numero1 =3D Number(prompt(&quot;digite um n=C3=BAmero: &=
+quot;));<br><br>if (numero1 % 3 =3D=3D=3D 0){<br>console.log(&quot;esse n=
+=C3=BAmero =C3=A9 multiplo de 3 &quot;);<br>}<br><br>else {<br>=C2=A0 =C2=
+=A0 console.log(&quot;esse n=C3=BAmero n=C3=A3o =C3=A9 multiplo de 3 &quot;=
+);<br>}</div><div><br></div><div>//////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+//////////////////////////////////</div><div><br></div><div>aula07.js</div>=
+<div><br></div><div>let nota1 =3D Number(prompt(&quot;informe a primeira no=
+ta do aluno: &quot;)); <br><br>let nota2 =3D Number(prompt(&quot;informe a =
+segunda nota do aluno: &quot;)); <br><br>let nota3 =3D Number(prompt(&quot;=
+informe a terceira nota do aluno: &quot;));<br><br>let media =3D (nota1 + n=
+ota2 + nota3) /3;<br>console.log(&quot;a m=C3=A9dia =C3=A9: &quot;,media);<=
+br><br>if (media &gt;=3D 7){<br>=C2=A0 =C2=A0 console.log(&quot;aprovado&qu=
+ot;);<br>}<br>else{<br>=C2=A0 =C2=A0 console.log(&quot;reprovado&quot;);<br=
+>}<br></div><div><br></div><div>///////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+////////////////////////////</div><div><br></div><div>aula08,js</div><div><=
+br></div><div>let numero1 =3D Number(prompt(&quot;digite um n=C3=BAmero: &q=
+uot;));<br><br>if (numero1 %2 =3D=3D=3D 0){<br>=C2=A0 =C2=A0 console.log(&q=
+uot;esse n=C3=BAmero =C3=A9 par &quot;);<br>}<br>else {<br>=C2=A0 =C2=A0 co=
+nsole.log(&quot;esse n=C3=BAmero =C3=A9 =C3=ADmpar &quot;);<br>}</div><div>=
+<br></div><div>////////////////////////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+/////////////</div><div><br></div><div>aula09.js</div><div><br></div><div>l=
+et idade =3D Number(prompt(&quot;informe a sua idade: &quot;));<br><br>if (=
+idade &lt;=3D 12){<br>=C2=A0 =C2=A0 console.log(&quot;voc=C3=AA =C3=A9 Cria=
+n=C3=A7a &quot;);<br>}<br>else if (idade &gt;=3D 13 &amp;&amp; idade &lt;=
+=3D 17){<br>=C2=A0 =C2=A0 console.log(&quot;voc=C3=AA =C3=A9 adolescente &q=
+uot;);<br>}<br>else if (idade &gt;=3D 18 &amp;&amp; idade &lt;=3D 64){<br>=
+=C2=A0 =C2=A0 console.log(&quot;voc=C3=AA =C3=A9 adulto &quot;);<br>}<br>el=
+se{<br>=C2=A0 =C2=A0 console.log(&quot;voc=C3=AA =C3=A9 idoso &quot;);<br>}=
+<br></div><div><br></div><div>/////////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+///////////////////////////</div><div><br></div><div>aula10.js</div><div><b=
+r></div><div>let sexo =3D Number(prompt(&quot;informe seu sexo\n1 para home=
+m e 2 para mulher: &quot;));<br><br>let idade =3D Number(prompt(&quot;infor=
+me sua idade: &quot;));<br><br>if (sexo =3D=3D=3D 2){<br>=C2=A0 =C2=A0 cons=
+ole.log(&quot;n=C3=A3o =C3=A9 obrigado a servir&quot;);<br>}<br>if (sexo =
+=3D=3D=3D 1 &amp;&amp; idade &lt;=3D 17){<br>=C2=A0 =C2=A0 console.log(&quo=
+t;n=C3=A3o pode servir &quot;);<br>}<br>if (sexo =3D=3D=3D 1 &amp;&amp; ida=
+de &gt;=3D 18){<br>=C2=A0 =C2=A0 =C2=A0console.log(&quot;=C3=A9 obrigado a =
+servir &quot;);<br>}</div><div>////////////////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+////////////////////////////////</div><div><br></div><div>aula11.js</div><d=
+iv><br></div><div>let n1 =3D Number(prompt(&quot;Informe o primeiro n=C3=BA=
+mero: &quot;));<br><br>let n2 =3D Number(prompt(&quot;Informe o segundo n=
+=C3=BAmero: &quot;));<br><br>let n3 =3D Number(prompt(&quot;Informe o terce=
+iro n=C3=BAmero: &quot;));<br><br>let n4 =3D Number(prompt(&quot;Informe o =
+quarto n=C3=BAmero: &quot;));<br><br>let n5 =3D Number(prompt(&quot;Informe=
+ o quinto n=C3=BAmero: &quot;));<br><br>let maior =3D n1;<br><br>let menor =
+=3D n1;<br><br>if (n2 &gt; maior) maior =3D n2;<br><br>if (n3 &gt; maior) m=
+aior =3D n3;<br><br>if (n4 &gt; maior) maior =3D n4;<br><br>if (n5 &gt; mai=
+or) maior =3D n5;<br><br>if (n2 &lt; menor) menor =3D n2;<br><br>if (n3 &lt=
+; menor) menor =3D n3;<br><br>if (n4 &lt; menor) menor =3D n4;<br><br>if (n=
+5 &lt; menor) menor =3D n5;<br><br>console.log(&quot;Maior n=C3=BAmero info=
+rmado:&quot;, maior);<br><br>console.log(&quot;Menor n=C3=BAmero informado:=
+&quot;, menor);</div><div><br></div><div>//////////////////////////////////=
+///////////////////////////////////////////////////////////////////////////=
+////////////////////////////////////////</div><div><br></div><div><br></div=
+><div><br></div><div><br></div><div><br></div><div><br></div></div></div>
+
+--000000000000b09e5f063b19ecda--
